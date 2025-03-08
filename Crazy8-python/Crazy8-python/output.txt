@@ -1,0 +1,76 @@
+===== TESTING CRAZY 8 GAME =====
+
+>>> Testing Card Class...
+Card 1: 8 of Hearts
+Card 2: 8 of Diamonds
+Card 3: 10 of Hearts
+Card 4: K of Spades
+c1 matches c2 (Same Rank)
+c1 matches c3 (Same Suit)
+c1 does not match c4
+
+>>> Testing Deck Class...
+Deck initialized with 52 cards.
+Drawing 3 cards manually...
+Drawn Card: 2 of Clubs
+Drawn Card: A of Diamonds
+Drawn Card: 3 of Clubs
+Remaining cards in deck: 49
+
+>>> Testing Hand Class...
+Hand contents: A of Spades, 5 of Clubs, 8 of Diamonds
+Top Card: 3 of Diamonds
+Playable Card Found: 8 of Diamonds
+Hand size after playing: 2
+
+>>> Testing Player Class...
+Alice has 1 cards.
+Attempting to play a turn...
+Played Card: K of Diamonds
+Cards after playing: 0
+
+>>> Testing Game Class...
+
+Player 1's Turn. Top Card: 2 of Clubs
+Player 1 played: 3 of Clubs
+
+Player 2's Turn. Top Card: 3 of Clubs
+Player 2 played: 5 of Clubs
+
+Player 1's Turn. Top Card: 5 of Clubs
+Player 1 played: 4 of Clubs
+
+Player 2's Turn. Top Card: 4 of Clubs
+Player 2 played: 6 of Clubs
+
+Player 1's Turn. Top Card: 6 of Clubs
+Player 1 had to draw a card.
+
+Player 2's Turn. Top Card: 6 of Clubs
+Player 2 played: 7 of Clubs
+
+Player 1's Turn. Top Card: 7 of Clubs
+Player 1 had to draw a card.
+
+Player 2's Turn. Top Card: 7 of Clubs
+Player 2 had to draw a card.
+
+Player 1's Turn. Top Card: 7 of Clubs
+Player 1 played: 8 of Clubs
+
+Player 2's Turn. Top Card: 8 of Clubs
+Player 2 played: 8 of Diamonds
+
+Player 1's Turn. Top Card: 8 of Diamonds
+Player 1 played: A of Diamonds
+
+Player 2's Turn. Top Card: A of Diamonds
+Player 2 played: J of Diamonds
+
+Player 1's Turn. Top Card: J of Diamonds
+Player 1 played: K of Diamonds
+
+Player 2's Turn. Top Card: K of Diamonds
+Player 2 played: 10 of Diamonds
+
+Player 2 wins the game!
